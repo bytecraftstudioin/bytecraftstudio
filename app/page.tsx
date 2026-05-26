@@ -468,13 +468,12 @@ const [message, setMessage] = useState("");
       </footer>
       {selectedProject && (
   <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-6">
-    <div className="bg-[#111827] flex items-center justify-center border border-white/10 rounded-[32px] max-w-2xl w-full overflow-hidden relative">
-
+    <div className="bg-[#111827] flex flex-col md:flex-row border border-white/10 rounded-[32px] max-w-2xl w-[95%] md:w-full overflow-hidden relative">
       <img src={`/project${projects.findIndex(
   (p) => p.title === selectedProject.title
 ) + 1}.jpg`}
         alt={selectedProject.title}
-        className="w-full h-[300px] object-cover"
+        className="w-full h-[220px] md:h-[300px] object-cover"
       />
 
 <div className="p-8">
@@ -482,7 +481,7 @@ const [message, setMessage] = useState("");
     {selectedProject.type}
   </p>
 
-  <h2 className="text-4xl font-black mb-6">
+  <h2 className="text-3xl md:text-4xl font-black mb-6">
     {selectedProject.title}
   </h2>
 
@@ -506,7 +505,7 @@ const [message, setMessage] = useState("");
 </div>
 <button
   onClick={() => setSelectedProject(null)}
-  className="absolute top-5 right-5 bg-black/50 hover:bg-red-500 transition w-10 h-10 rounded-full"
+  className="absolute top-3 right-3 md:top-5 md:right-5 bg-black/50 hover:bg-red-500 transition w-10 h-10 rounded-full"
 >
   ✕
 </button>
