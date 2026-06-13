@@ -391,7 +391,7 @@ const [message, setMessage] = useState("");
             </p>
           </div>
 
-      <div className="flex items-center justify-center">
+      <div className="grid lg:grid-cols-2 gap-16 items-center">
   <a
     href="https://docs.google.com/forms/d/e/1FAIpQLSeD-9Tuh-nEln__MdQWZqqC84k7yC-f_YVzXXir0V3cU2djrg/viewform?usp=header"
     target="_blank"
