@@ -376,13 +376,13 @@ const [message, setMessage] = useState("");
 
       {/* Contact */}
       <section id="contact" className="max-w-7xl mx-auto px-5 md:px-6 py-20 md:py-28">
-        <div className="grid lg:grid-cols-2 gap-10 md:gap-16 items-start">
+        <div className="grid lg:grid-cols-2 gap-10 md:gap-16 items-center">
           <div>
             <p className="text-cyan-400 uppercase tracking-[0.3em] text-sm mb-4">
               Contact
             </p>
 
-            <h2 className="text-5xl font-black leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black leading-tight break-words">
               Have an IT Requirement?
             </h2>
 
@@ -391,7 +391,7 @@ const [message, setMessage] = useState("");
             </p>
           </div>
 
-      <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="flex items-center justify-center">
   <a
     href="https://docs.google.com/forms/d/e/1FAIpQLSeD-9Tuh-nEln__MdQWZqqC84k7yC-f_YVzXXir0V3cU2djrg/viewform?usp=header"
     target="_blank"
@@ -448,6 +448,15 @@ const [message, setMessage] = useState("");
   >
     Fiverr
   </a>
+
+  <a
+  href="https://wa.me/919600662516"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-cyan-400 transition"
+>
+  WhatsApp
+</a>
 
 </div>
       </footer>
