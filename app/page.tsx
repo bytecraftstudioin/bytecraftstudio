@@ -383,47 +383,24 @@ const [message, setMessage] = useState("");
             </p>
 
             <h2 className="text-5xl font-black leading-tight">
-              Have an Idea?
+              Have an IT Requirement?
             </h2>
 
             <p className="mt-8 text-gray-300 text-lg leading-relaxed max-w-lg">
-              Let’s create a powerful website or app for your brand with premium animations and modern UI.
+              Need a website, Microsoft 365 setup, business email, network support, or IT services? Fill out our project inquiry form and we'll get back to you.
             </p>
           </div>
 
-        <div className="bg-white/5 border border-white/10 rounded-[28px] md:rounded-[40px] p-6 md:p-10 backdrop-blur-xl space-y-6">
+      <div className="bg-white/5 border border-white/10 rounded-[40px] p-10 backdrop-blur-xl flex items-center justify-center min-h-[350px]">
 
-  <input
-    type="text"
-    placeholder="Your Name"
-    value={name}
-    onChange={(e) => setName(e.target.value)}
-    className="w-full bg-black/30 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-cyan-400"
-  />
-
-  <input
-    type="email"
-    placeholder="Your Email"
-    value={email}
-    onChange={(e) => setEmail(e.target.value)}
-    className="w-full bg-black/30 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-cyan-400"
-  />
-
-  <textarea
-    rows={5}
-    placeholder="Tell us about your project"
-    value={message}
-    onChange={(e) => setMessage(e.target.value)}
-    className="w-full bg-black/30 border border-white/10 rounded-2xl px-5 py-4 outline-none focus:border-cyan-400"
-  />
-<button
-  onClick={() => {
-    window.location.href = `mailto:contact@bytecraftstudio.com?subject=New Project From ${name}&body=Name: ${name}%0AEmail: ${email}%0AProject Details: ${message}`;
-  }}
-  className="w-full bg-blue-500 hover:bg-blue-600 transition py-4 rounded-2xl font-bold text-lg shadow-xl shadow-blue-500/30"
->
-    Send Message
-  </button>
+  <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSeD-9Tuh-nEln__MdQWZqqC84k7yC-f_YVzXXir0V3cU2djrg/viewform?usp=header"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-500 hover:bg-blue-600 transition px-10 py-5 rounded-2xl font-bold text-xl shadow-xl shadow-blue-500/30"
+  >
+    Start Your Project
+  </a>
 
 </div>
 </div>
