@@ -7,14 +7,17 @@ export default function BytecraftStudio() {
 const [name, setName] = useState("");
 const [email, setEmail] = useState("");
 const [message, setMessage] = useState("");
-  const services = [
-    'Web Development',
-    'App Development',
-    'UI/UX Design',
-    'AI Solutions',
-    'Software Testing',
-    'Brand Identity',
-  ];
+ const services = [
+  'Website Development',
+  'Business Email Solutions',
+  'Microsoft 365 Setup',
+  'IT Support Services',
+  'Network & Wi-Fi Setup',
+  'Cloud Migration Services',
+  'Data Backup & Recovery',
+  'Computer & Workstation Setup',
+  'CCTV & Network Integration',
+];
 
  const projects = [
   {
@@ -112,7 +115,7 @@ const [message, setMessage] = useState("");
           </h1>
 
           <p className="mt-6 md:mt-8 text-gray-300 text-base md:text-lg leading-relaxed max-w-xl">
-            Premium websites, mobile apps, AI tools and startup experiences with smooth animations and modern design.
+         Professional Website Development, Microsoft 365 Setup, Business Email Solutions, and IT Support Services for growing businesses.
           </p>
 <div className="flex flex-col gap-4 mt-10 w-full pr-4">
 
@@ -208,7 +211,7 @@ const [message, setMessage] = useState("");
           </p>
 
           <h2 className="text-5xl font-black">
-            What We Build
+            Our Services
           </h2>
         </div>
 
@@ -228,17 +231,23 @@ const [message, setMessage] = useState("");
 
               <p className="text-gray-400 leading-relaxed">
   {
-    index === 0
-      ? "Modern, responsive, and high-performance websites built for brands and startups."
-      : index === 1
-      ? "Powerful mobile applications designed for smooth user experience and scalability."
-      : index === 2
-      ? "Clean and creative interfaces focused on usability, aesthetics, and engagement."
-      : index === 3
-      ? "Smart AI-powered systems and automation tools to improve productivity and workflow."
-      : index === 4
-      ? "Reliable software testing solutions to ensure performance, security, and stability."
-      : "Unique brand identities that help businesses stand out in the digital world."
+   index === 0
+  ? "Professional business websites designed for growth and performance."
+  : index === 1
+  ? "Professional email solutions using Microsoft 365 and custom domains."
+  : index === 2
+  ? "Microsoft 365 deployment, migration, and user management."
+  : index === 3
+  ? "Reliable on-site and remote IT support for businesses."
+  : index === 4
+  ? "Secure office network and Wi-Fi installation and configuration."
+  : index === 5
+  ? "Cloud migration services for email, files, and business applications."
+  : index === 6
+  ? "Automated backup solutions and disaster recovery planning."
+  : index === 7
+  ? "Computer, laptop, and workstation setup for offices and teams."
+  : "CCTV installation, network integration, and monitoring solutions."
   }
 </p>
             </div>
