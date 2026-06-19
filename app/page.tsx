@@ -459,6 +459,59 @@ const [message, setMessage] = useState("");
 </a>
 
 </div>
+{/* Free Tools Section */}
+<div className="mt-12 pt-8 border-t border-white/10">
+  <h2 className="text-2xl font-bold text-center mb-6">
+    Free Tools by ByteSpin
+  </h2>
+
+  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+    <a
+      href="https://bytespin.bytecraftstudio.com/"
+      className="bg-white/5 border border-white/10 rounded-2xl p-4 hover:border-cyan-400 hover:text-cyan-400 transition text-center"
+    >
+      🎡 Spin Wheel
+    </a>
+
+    <a
+      href="https://bytespin.bytecraftstudio.com/coin-flip"
+      className="bg-white/5 border border-white/10 rounded-2xl p-4 hover:border-cyan-400 hover:text-cyan-400 transition text-center"
+    >
+      🪙 Coin Flip
+    </a>
+
+    <a
+      href="https://bytespin.bytecraftstudio.com/random-number-generator"
+      className="bg-white/5 border border-white/10 rounded-2xl p-4 hover:border-cyan-400 hover:text-cyan-400 transition text-center"
+    >
+      🔢 Random Number
+    </a>
+
+    <a
+      href="https://bytespin.bytecraftstudio.com/yes-or-no"
+      className="bg-white/5 border border-white/10 rounded-2xl p-4 hover:border-cyan-400 hover:text-cyan-400 transition text-center"
+    >
+      🤔 Yes / No Picker
+    </a>
+
+    <a
+      href="https://bytespin.bytecraftstudio.com/dice-roller"
+      className="bg-white/5 border border-white/10 rounded-2xl p-4 hover:border-cyan-400 hover:text-cyan-400 transition text-center"
+    >
+      🎲 Dice Roller
+    </a>
+
+    <a
+      href="https://bytespin.bytecraftstudio.com/name-picker"
+      className="bg-white/5 border border-white/10 rounded-2xl p-4 hover:border-cyan-400 hover:text-cyan-400 transition text-center"
+    >
+      👤 Name Picker
+    </a>
+
+  </div>
+</div>
+
       </footer>
       {selectedProject && (
   <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-6">
