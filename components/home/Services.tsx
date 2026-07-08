@@ -59,17 +59,17 @@ const services = [
 
 export default function Services() {
   return (
-    <section
-      id="services"
-      className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-20 md:py-28"
-    >
+ <section
+  id="services"
+  className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-10 md:py-14"
+>
       <SectionTitle
         badge="Services"
         title="Our Services"
         description="Professional digital solutions designed to help businesses grow, scale, and succeed."
       />
 
-      <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-8">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
 
         {services.map((service, index) => (
 

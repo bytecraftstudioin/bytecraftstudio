@@ -2,8 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-20 md:py-28 overflow-hidden"
-    >
+      className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-6 pb-8 md:pt-10 md:pb-12 overflow-hidden">
       <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
         {/* Left Stats */}

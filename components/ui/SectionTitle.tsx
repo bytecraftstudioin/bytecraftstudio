@@ -15,7 +15,7 @@ export default function SectionTitle({
     <div
       className={`${
         center ? "text-center" : ""
-      } mb-16 transition-all duration-300`}
+      } mb-8 md:mb-10 transition-all duration-300`}
     >
       {/* Badge */}
 

@@ -1,10 +1,31 @@
 export default function Hero() {
   return (
-    <section className="relative w-full max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-20 md:py-28 grid lg:grid-cols-2 gap-14 lg:gap-20 items-center min-h-screen overflow-hidden">
+   <section
+  className="
+relative
+w-full
+max-w-7xl
+mx-auto
+px-5
+sm:px-6
+lg:px-8
+pt-10
+pb-4
+md:pt-16
+md:pb-6
+grid
+lg:grid-cols-2
+gap-8
+lg:gap-16
+items-start
+lg:items-center
+overflow-hidden
+"
+>
 
       {/* Left */}
 
-      <div>
+      <div className="max-w-2xl">
 
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-400/20 backdrop-blur-xl">
 
@@ -16,7 +37,11 @@ export default function Hero() {
 
         </div>
 
-        <h1 className="mt-8 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black leading-[0.95]">
+        <h1 className="mt-8 text-4xl
+sm:text-5xl
+md:text-6xl
+lg:text-7xl
+xl:text-8xl">
 
           We Build
 
@@ -30,7 +55,7 @@ export default function Hero() {
 
         </h1>
 
-        <p className="mt-8 text-gray-300 text-base md:text-lg leading-8 max-w-xl">
+        <p className="mt-6 md:mt-8 text-gray-300 text-base md:text-lg leading-8 max-w-xl">
 
           Professional Website Development,
           Microsoft 365 Setup,
@@ -40,7 +65,7 @@ export default function Hero() {
 
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 mt-10">
+        <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-10">
 
           <a
             href="#contact"
@@ -102,7 +127,12 @@ export default function Hero() {
 
         </div>
 
-        <div className="grid grid-cols-3 gap-6 mt-14">
+        <div className="grid
+grid-cols-3
+gap-4
+sm:gap-6
+mt-10
+md:mt-14">
 
           <div>
 
@@ -146,7 +176,7 @@ export default function Hero() {
 
       {/* Right */}
 
-      <div className="relative flex justify-center items-center mt-10 lg:mt-0">
+      <div className="relative flex justify-center items-center mt-6 md:mt-8 lg:mt-0">
 
         <div className="absolute w-[320px] h-[320px] md:w-[500px] md:h-[500px] rounded-full bg-cyan-500/20 blur-[120px]" />
 
@@ -189,9 +219,10 @@ export default function Hero() {
                 src="/logo.png"
                 alt="Bytecraft Studio"
                 className="
-                w-40
-                md:w-52
-                object-contain
+                w-32
+sm:w-40
+md:w-52
+  object-contain
                 transition-all
                 duration-500
                 hover:rotate-6

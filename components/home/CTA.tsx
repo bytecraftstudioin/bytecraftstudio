@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-20 md:py-28">
+    <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-10 md:py-14">
 
       <div
         className="
@@ -13,10 +13,10 @@ export default function CTA() {
         from-[#2563eb]
         via-[#1d4ed8]
         to-[#06b6d4]
-        px-6
-        py-16
-        md:px-16
-        md:py-20
+px-6
+py-12
+md:px-14
+md:py-16
         text-center
         transition-all
         duration-500
@@ -64,8 +64,7 @@ export default function CTA() {
 
           </div>
 
-          <h2 className="mt-8 text-4xl md:text-6xl font-black leading-tight max-w-4xl mx-auto">
-
+          <h2 className="mt-6 text-4xl md:text-6xl font-black leading-tight max-w-4xl mx-auto">
             Let's Build
 
             <span className="block">
@@ -74,7 +73,7 @@ export default function CTA() {
 
           </h2>
 
-          <p className="mt-8 text-white/90 text-lg leading-8 max-w-2xl mx-auto">
+          <p className="mt-5 text-white/90 text-lg leading-8 max-w-2xl mx-auto">
 
             Build premium websites, Microsoft 365 solutions,
             business email, cloud infrastructure, and digital
@@ -84,7 +83,7 @@ export default function CTA() {
 
           {/* Buttons */}
 
-          <div className="flex flex-col sm:flex-row justify-center gap-5 mt-12">
+          <div className="flex flex-col sm:flex-row justify-center gap-5 mt-8">
 
             <a
               href="#contact"

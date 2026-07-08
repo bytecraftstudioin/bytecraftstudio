@@ -30,7 +30,7 @@ export default function ProjectModal({
         relative
         w-full
         max-w-6xl
-        max-h-[92vh]
+        max-h-[90vh]
         overflow-y-auto
         rounded-[36px]
         bg-[#111827]
@@ -79,9 +79,10 @@ export default function ProjectModal({
               alt={selectedProject.title}
               className="
               w-full
-              h-[260px]
-              md:h-[420px]
-              lg:h-full
+              h-[220px]
+sm:h-[260px]
+md:h-[340px]
+lg:h-full
               object-cover
               transition-transform
               duration-700
@@ -95,7 +96,7 @@ export default function ProjectModal({
 
           {/* Content */}
 
-          <div className="p-6 md:p-10">
+          <div className="p-5 sm:p-6 md:p-8">
 
             <span
               className="
@@ -115,17 +116,17 @@ export default function ProjectModal({
               {selectedProject.type}
             </span>
 
-            <h2 className="mt-5 text-3xl md:text-5xl font-black leading-tight">
+            <h2 className="mt-4 text-3xl md:text-5xl font-black leading-tight">
               {selectedProject.title}
             </h2>
 
-            <p className="mt-6 text-gray-300 leading-8">
+            <p className="mt-4 text-gray-300 leading-8">
               {selectedProject.description}
             </p>
 
             {/* Tech */}
 
-            <h3 className="mt-10 mb-5 text-xl font-bold">
+            <h3 className="mt-6 mb-4 text-xl font-bold">
               Technologies Used
             </h3>
 
@@ -164,7 +165,7 @@ export default function ProjectModal({
 
             {/* Stats */}
 
-            <div className="grid grid-cols-3 gap-4 mt-10">
+            <div className="grid grid-cols-3 gap-4 mt-6">
 
               <div className="bg-white/5 rounded-2xl p-4 text-center border border-white/10">
 
@@ -206,7 +207,7 @@ export default function ProjectModal({
 
             {/* Buttons */}
 
-            <div className="flex flex-col sm:flex-row gap-4 mt-10">
+            <div className="flex flex-col sm:flex-row gap-4 mt-6">
 
               <button
                 className="

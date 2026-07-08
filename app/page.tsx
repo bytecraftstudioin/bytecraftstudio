@@ -60,7 +60,6 @@ const [selectedProject, setSelectedProject] =
 
 <Hero />
 <About />
-<GoogleAd />
 <Services />
 <Process />
 <Portfolio
