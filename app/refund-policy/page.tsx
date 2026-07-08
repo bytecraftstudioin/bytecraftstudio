@@ -384,7 +384,7 @@ export default function RefundPolicyPage() {
         </h3>
 
         <p className="text-gray-400">
-          hello@bytecraftstudio.com
+          contact@bytecraftstudio.com
         </p>
 
       </div>

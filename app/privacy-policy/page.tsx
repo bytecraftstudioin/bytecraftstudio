@@ -1197,7 +1197,7 @@ hover:shadow-[0_0_20px_rgba(34,211,238,0.15)]
         </h3>
 
         <p className="text-gray-400">
-          hello@bytecraftstudio.com
+          contact@bytecraftstudio.com
         </p>
 
       </div>

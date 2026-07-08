@@ -776,14 +776,14 @@ const currentProject = project;
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-          {caseStudies
-            .filter((item) => item.slug !== project.slug)
-            .slice(0, 3)
+          {projects
+  .filter((item) => item.slug !== project.slug)
+  .slice(0, 3)
             .map((item, index) => (
 
               <a
                 key={item.slug}
-                href={`/case-studies/${item.slug}`}
+                href={`/portfolio/${item.slug}`}
                 className="
                 group
                 overflow-hidden
