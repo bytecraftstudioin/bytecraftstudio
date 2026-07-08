@@ -68,7 +68,7 @@ xl:text-8xl">
         <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-10">
 
           <a
-            href="/contact"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeD-9Tuh-nEln__MdQWZqqC84k7yC-f_YVzXXir0V3cU2djrg/viewform?usp=sharing&ouid=111289545347139403852"
             className="
             group
             inline-flex

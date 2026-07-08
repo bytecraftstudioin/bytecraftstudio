@@ -66,7 +66,7 @@ export default function Navbar() {
             {/* Desktop Button */}
 
             <Link
-              href="/contact"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeD-9Tuh-nEln__MdQWZqqC84k7yC-f_YVzXXir0V3cU2djrg/viewform?usp=sharing&ouid=111289545347139403852"
               className="
               hidden
               md:inline-flex
@@ -279,7 +279,7 @@ export default function Navbar() {
     >
 
       <Link
-        href="/contact"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeD-9Tuh-nEln__MdQWZqqC84k7yC-f_YVzXXir0V3cU2djrg/viewform?usp=sharing&ouid=111289545347139403852"
         onClick={() => setOpen(false)}
         className="
         flex
