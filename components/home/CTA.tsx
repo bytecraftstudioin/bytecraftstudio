@@ -86,7 +86,7 @@ md:py-16
           <div className="flex flex-col sm:flex-row justify-center gap-5 mt-8">
 
             <a
-              href="#contact"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeD-9Tuh-nEln__MdQWZqqC84k7yC-f_YVzXXir0V3cU2djrg/viewform?usp=header"
               className="
               group
               inline-flex
